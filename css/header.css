@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+body {
+    font-size: 16px;
+    /*line-height: 1;*/
+    font-family: "BentonSans", Arial;
+    background-color: black;
+}
+header {
+    height:70px;
+    color: white;
+}
+.title{
+    float: left;
+    font-size: 40px;
+    margin-left: 22%;
+    margin-top: -10px;
+    color: white;
+}
+.box{
+    margin: 35px 65% auto;
+}
+.rounded {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+.search {
+    padding:5px 15px 5px 30px;
+    margin:2px;
+}
+
+.inner-addon {
+    position: relative;
+}
+/* style icon */
+.inner-addon .fa {
+    position: absolute;
+    padding: 10px;
+    color: black;
+}
+
+/* align icon */
+.right-addon .fa { left: 0px;}
+.login{
+    float:right;
+    position:absolute;
+    right:0;
+    margin-top:-30px ;
+    margin-right: 5%;
+    color: white;
+
+}
+.head {
+    color: #333;
+    text-decoration: none;
+    color: white;
+}
+.header{
+    display:inline;
+
+}

@@ -1,0 +1,48 @@
+.footer {
+    background: #22272D;
+    background-size: cover;
+    clear: both;
+    margin-bottom: -10%;
+}
+div {
+    display: block;
+}
+.footerOverlay {
+    width: 100%;
+}
+    .footernav {
+        /* width: 22% !important; */
+        width: 33.33%;
+        font-size: 14px !important;
+        float: left !important;
+        margin-left: 30px !important;
+
+    }
+
+    center {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .heading {
+        color: #999;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+        padding: 5px 0px;
+        margin: 5px 0px;
+        border-bottom: 1px #444 solid;
+    }
+    .nav {
+        text-align: left;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .mainnav {
+        line-height: 26px;
+        float: left;
+        width: 50%;
+    }
+    .footMenu {
+        color: #666 !important;
+        display: inline-block;
+    }

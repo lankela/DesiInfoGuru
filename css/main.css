@@ -1,0 +1,127 @@
+#footer {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+.popup{
+
+
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.center-grey {
+    background: #f2f2f2;
+}
+.slide.ng-hide-add,
+.slide.ng-hide-remove {
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    display: block!important;
+}
+.slide.ng-hide-add.ng-hide-add-active,
+.slide.ng-hide-remove {
+    opacity: 0;
+}
+.slide.ng-hide-add,
+.slide.ng-hide-remove.ng-hide-remove-active {
+    opacity: 1;
+}
+.slider {
+    position: relative;
+    padding: 5px;
+    width: 610px;
+    margin: auto;
+    margin-top: 40px;
+}
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 15px #999;
+}
+.arrows {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.arrows img {
+    height: 32px;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: #222;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+.banner{
+    height:500px;
+    width: 100%;
+    text-align: center;
+}
+ .topsection{
+
+    background-color:darkgrey;
+    width: 200px;
+     margin-top: 15px;
+}
+.text{
+    padding:5px ;
+    padding-right: 30px;
+    position: relative;
+    vertical-align: top;
+}
+.popover.bottom {
+    margin-top: 10px;
+    height: 150px;
+    cursor: default;
+    width: 355px;
+    border: 1px solid #110E14;
+    text-align:left;
+    display: none;
+    background: #f4f4f4;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 0!important;
+    z-index: 300;
+}
+.popover-content {
+    padding: 9px 29px;
+}
+
+/*Banner*/
+#slides_control > div{
+    height: 400px;
+}
+img{
+    margin:auto;
+    width: 800px;
+}
+#slides_control {
+    position:absolute;
+    width: 800px;
+    left:50%;
+    top:20px;
+    margin-left:-20%;
+    margin-top: 130px;
+}
+.middle{
+    /*width:50%;*/
+    margin-top: 40px;
+}
+.main{
+    background-image: url("../images/displaypage-background-image-1440x960-69.jpg");
+}
+.custom{
+    display: inline-flex;
+}
+.reg{
+    margin-right: 80px;
+}

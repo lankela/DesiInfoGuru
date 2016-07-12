@@ -1,0 +1,9 @@
+<div ng-controller="popCtrl">
+    <div class="topsection" >
+        <input type="text" class="text" tabindex="0" name="city" ng-required="true"  ng-model="selected" uib-typeahead="state for state in states | filter:$viewValue | limitTo :50" >
+    </div>
+    </br>
+    <div class="bottomsec">
+        <span><strong>Top Searched</strong></span>
+    </div>
+</div>
